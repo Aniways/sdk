@@ -3,7 +3,6 @@
 This guide will walk you through adding Aniways to your app on Android. 
 Getting started with Aniways is very easy and takes less than 10 minutes, just follow these short steps to add Aniways to your app:
 
- 
 ## Create your Aniways App
 
 First, add new App, and get your App Id.
