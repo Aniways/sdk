@@ -23,7 +23,7 @@ In the store the user can purchase more credits using Apple In-App Purchase mech
 
 ### 1. Define In-App Purchase Products in iTunes Connect
 
- 1. Log into iTunes Connect. 
+ 1. Log into [iTunes Connect](https://itunesconnect.apple.com). 
  2. On the Home page, click __Manage Your Apps__.
  3. Click on the app for which you wish to create an __In-App Purchase__
  4. On the App Summary page, click __Manage In-App Purchases__
