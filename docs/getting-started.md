@@ -35,7 +35,7 @@ The initialization needs to be placed in the `onCreate()` method of all entry po
 
 The init code needs to be placed as close to the beginning of the method as possible.
 
-```
+```java
 @Override
 public void onCreate(Bundle savedInstanceState){
       Aniways.init(this);    
@@ -47,7 +47,7 @@ Aniways inherits from the `EditText` control in which the users type messages an
 
 Therefore, you need to find the layout file where this EditText is defined and replace it with `com.aniways.AniwaysEditText`.
 
-```
+```xml
 <com.aniways.AniwaysEditText
    android:id="@+id/chat_input"
    android:layout_weight="1" ...
@@ -61,7 +61,7 @@ Aniways also inherits from the `TextView` control which is used to display messa
 So, you need to find the layout file where the message wall is defined and replace the TextView control/s in it with `com.aniways.AniwaysTextView`.
 
 
-```
+```xml
 <com.aniways.AniwaysTextView
    android:id="@+id/text"
    android:layout_width="wrap_content" ...
@@ -80,7 +80,7 @@ Before doing any of the above actions with the message, you need to first conver
 
 Please note that calling `toString()` on the `Editable` removes the Aniways icons altogether, so before calling this method you need to convert the Icons to text codes by calling `Aniways.replaceAniwaysIconsWithText()`.
 
-```
+```java
 private void sendMessage() {
        EditText editView = (EditText) actionWithView.findViewById(R.id.chat_input);
        Editable editableText = editView.getText();
@@ -139,7 +139,6 @@ In order to activate Aniways you need to set the following mandatory configurati
 
         <string name="aniways_upgradeUrl">http://www.some_app.com</string>
 	<resources>
-
 
 ### 9. Optional configuration:
 
