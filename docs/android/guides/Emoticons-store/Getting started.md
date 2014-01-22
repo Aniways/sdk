@@ -8,6 +8,8 @@ The guide assumes that you have already performed the actions described in the [
 
 ## Adding the Store
 
+### 1.  Define in-app products in Google Play
+
 To make the store work, you need to define [in-app managed products in Google Play](http://developer.android.com/google/play/billing/billing_admin.html) for your app. 
 
 These are the credit packs that you would sell. The packs are for 100, 250, 500, 1000, 2000 and 3000 credits. You can define the price for each pack and in each territory in Google Play. To unlock 1 icon the user will need 10 credits, so if he buys the 250 credits pack, for example, then he could unlock 25 icons. Please note that it is preferable to use the default Aniways product ids for the packs, but you can also define your own (the default ids are `aniways_100_credits`, `aniways_250_credits`, `aniways_500_credits`, `aniways_1000_credits`, `aniways_2000_credits`, `aniways_3000_credits`).
