@@ -1,4 +1,4 @@
-# Getting Started with the Emoticons on Demand Button
+# Quick setup of the Emoticons on Demand Button
 
 This guide will walk you through adding the Aniways Emoticons on demnd button to your app.
 
