@@ -47,6 +47,7 @@ After defining the credit packs in the Google Play Developer Console, you need t
 		For info on how to define the SKUs (product ids) on Google play, please read: 						http://developer.android.com/google/play/billing/billing_admin.html
 		Default value is '100'. 
 	-->
+	
     	<integer name="aniways_store_initial_credits">100</integer>
 	<!-- The SKU (product ID) for 100 credits in the emoticons store.
 		You need to set this only if the store is enabled.
@@ -56,6 +57,7 @@ After defining the credit packs in the Google Play Developer Console, you need t
 		For info on how to define the SKUs (product ids) on Google play, please read: 						http://developer.android.com/google/play/billing/billing_admin.html
 		Default value is 'aniways_100_credits'. 
 	-->
+	
 	<string name="aniways_100_credits_sku">aniways_100_credits</string>    
 	<!-- The SKU (product ID) for 250 credits in the emoticons store. -->
 	<string name="aniways_250_credits_sku">aniways_250_credits</string>
