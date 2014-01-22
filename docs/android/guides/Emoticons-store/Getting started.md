@@ -1,4 +1,4 @@
-# Quick Setup of the Aniways Emoticons Store
+# Quick setup of the Aniways Emoticons Store
 
 This guide will walk you through adding the Aniways Emoticons Store to your app.
 
