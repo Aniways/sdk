@@ -25,7 +25,7 @@ After defining the credit packs in the Google Play Developer Console, you need t
         <bool name="aniways_enable_credits_store">true</bool>
 
 	<!-- Should be YOUR APPLICATION'S PUBLIC KEY
-		(that you got from the Google Play developer console - its in the Services & APIs tab, under 'YOUR 			LICENSE KEY FOR THIS APPLICATION').
+		(that you got from the Google Play developer console - its in the Services & APIs tab, under 'YOUR LICENSE KEY FOR THIS APPLICATION').
 		This is not your developer public key, it's the *app-specific* public key.              
 		Instead of just storing the entire literal string here embedded in the
 		program,  you can construct the key at runtime from pieces or
