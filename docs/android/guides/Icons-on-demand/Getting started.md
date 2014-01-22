@@ -7,15 +7,11 @@ The icons to choose from are displayed over the keyboard (if it’s opened), or 
 
 The guide assumes that you have already performed the actions described in the [getting started guide] (https://github.com/Aniways/sdk/blob/master/docs/android/Getting%20started.md)
 
-## Adding the button
-
-There are 3 steps to configure the button:
-
-### 1. Add the button to your layout
+## 1. Add the button to your layout
  
 Place an `ImageView`, or an `ImageButton` where you want the button to be placed in your layout. You can set its size, background color, etc.
 
-### 2. Add Aniways layout placeholder into your layout
+## 2. Add Aniways layout placeholder into your layout
 
 Include the aniways_emoticons_button_popup_placeholder layout at the bottom most part of the vertical `LinearLayout` which contains the layout of the activity in which the `AniwaysEditText` is placed. Set the width to `match_parent` and hight to `wrap_content`. This layout has a visibility of `Gone` by default. The idea is that it will be positioned where the keyboard would be when it is opened, and so if the keyboard is not opened, and the button is pressed then Aniways would change its visibility to `Visible` and make it push the `AniwaysEditText` up, like the keyboard would do, and create room for the content of the button to be displayed.
 
@@ -75,7 +71,7 @@ Include the aniways_emoticons_button_popup_placeholder layout at the bottom most
 	        
 	</LinearLayout>
 
-### 3. Initialize the Emoticons button in your code
+## 3. Initialize the Emoticons button in your code
 
 Init the button to be an Aniways Emoticons Button in the onCreate of the activity which holds it. You need to supply the button creator with the button itself, the EditText to which to add the selected icons, the placeholder and the vertical linear layout which holds the placeholder.
 
@@ -98,5 +94,5 @@ public void onCreate(Bundle savedInstanceState) {
 }
 ```
 
- > Please note: that more info on the emoticons on demand button can be found in the “Aniways Icons on demnd Guide”.
+ > Please note: that more info on the emoticons on demand button can be found in the Aniways emoticons on demnd Guide.
  
