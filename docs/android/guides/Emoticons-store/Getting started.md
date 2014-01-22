@@ -14,12 +14,11 @@ These are the credit packs that you would sell. The packs are for 100, 250, 500,
 
 After defining the credit packs in the Google Play Developer Console, you need to configure Aniways to use the store and to hook up to your defined products. These are the configuration values that you need to set in the `aniways.xml` file under the ‘values’ folder:
 
-	<!-- Whether to enable the Emoticons store. If this is set to 'true' then some of the icons will be locked and 	             the user could unlock them using credits bought on the store. Each icon costs 10 credits. You (the app)                 decide how much to charge for credits.
-	     There are 6 credit SKUs (product IDs) that you need to define in Google play as !consumable! in-app 	     purchase items: 100, 250, 500, 1000, 2000, 3000 credits.
+	<!-- Whether to enable the Emoticons store. If this is set to 'true' then some of the icons will be locked and the user could unlock them using credits bought on the store. Each icon costs 10 credits. You (the app)                 decide how much to charge for credits.
+	     There are 6 credit SKUs (product IDs) that you need to define in Google play as !consumable! in-app purchase items: 100, 250, 500, 1000, 2000, 3000 credits.
 	     You decide how much they cost.
-	     For info on how to define the SKUs (product IDs) on Google play, please read: 	  
-	     http://developer.android.com/google/play/billing/billing_admin.html 
-	     Please note: When this is set to 'true' then you must also set the SKUs (product IDs) for the credit 	             packages, or this will not work.
+	     For info on how to define the SKUs (product IDs) on Google play, please read: http://developer.android.com/google/play/billing/billing_admin.html 
+	     Please note: When this is set to 'true' then you must also set the SKUs (product IDs) for the credit packages, or this will not work.
              Default value is 'true'.
 	-->
         <bool name="aniways_enable_credits_store">true</bool>
