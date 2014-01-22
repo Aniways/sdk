@@ -95,4 +95,3 @@ public void onCreate(Bundle savedInstanceState) {
 ```
 
  > Please note: that more info on the emoticons on demand button can be found in the Aniways emoticons on demnd Guide.
- 
