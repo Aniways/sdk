@@ -1,5 +1,12 @@
+# Getting Started with the Aniways Emoticons Store
 
-Aniways lets you lock some of the icons and sell credits that are used to unlock them.
+This guide will walk you through adding the Aniways Emoticons Store to your app.
+
+The store lets you lock some of the icons we provide and sell credits that are used to unlock them.
+
+The guide assumes that you have already performed the actions described in the [general getting started guide] (https://github.com/Aniways/sdk/blob/master/docs/android/Getting%20started.md)
+
+## Adding the Store
 
 To make the store work, you need to define [in-app managed products in Google Play](http://developer.android.com/google/play/billing/billing_admin.html) for your app. 
 
