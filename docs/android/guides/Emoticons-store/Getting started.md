@@ -25,7 +25,7 @@ After defining the credit packs in the Google Play Developer Console, you need t
 
 	<!-- Should be YOUR APPLICATION'S PUBLIC KEY (that you got from the Google Play developer console - its in the Services & APIs tab, under 'YOUR LICENSE KEY FOR THIS APPLICATION').
 		This is not your developer public key, it's the *app-specific* public key.              
-		Instead of just storing the entire literal string here embedded in the program,  you can construct the key at runtime from pieces or use bit manipulation (for example, XOR with some other string) to hide the actual key.  			The key itself is not secret information, but if you don't want to make it easy for an attacker to replace the public key with one of their own and then fake messages from the server then you can remove this config from the XML and instead set it in code in the onCreate() method, just after initializing Aniways.
+		Instead of just storing the entire literal string here embedded in the program, you can construct the key at runtime from pieces or use bit manipulation (for example, XOR with some other string) to hide the actual key.  			The key itself is not secret information, but if you don't want to make it easy for an attacker to replace the public key with one of their own and then fake messages from the server then you can remove this config from the XML and instead set it in code in the onCreate() method, just after initializing Aniways.
 		Default value is: '!!MUST REPLACE THIS with your app's public key'
 	-->
     	<string name="aniways_app_public_key_for_credits_store">!!MUST REPLACE THIS with your app's public key </string>
