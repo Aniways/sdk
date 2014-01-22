@@ -1,7 +1,13 @@
+# Getting Started with the Icons on demand button
 
-The Aniways Emoticons on Demand Button lets users insert icons without writing text first. The users can browse all the icons by categories, families and recently used.
+This guide will walk you through adding the Aniways Icons on demnd button to your app.
 
+The Aniways Icons on Demand Button lets users insert icons without writing text first. The users can browse all the icons by categories, families and recently used.
 The icons to choose from are displayed over the keyboard (if it’s opened), or where the keyboard would be when opened (if it’s not currently opened).
+
+The guide assumes that you have already performed the actions described in the general getting started guide:
+
+## Adding the button
 
 There are 3 steps to configure the button:
 
@@ -92,5 +98,5 @@ public void onCreate(Bundle savedInstanceState) {
 }
 ```
 
-Please note that more info on the emoticons on demand button can be found in the “Aniways Emoticons Button Guide.docx” file in the SDK zip.
+ > Please note: that more info on the emoticons on demand button can be found in the “Aniways Icons on demnd Guide”.
  
