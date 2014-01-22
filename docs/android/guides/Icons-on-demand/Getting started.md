@@ -1,11 +1,11 @@
-# Getting Started with the Icons on demand button
+# Getting Started with the Emoticons on Demand Button
 
-This guide will walk you through adding the Aniways Icons on demnd button to your app.
+This guide will walk you through adding the Aniways Emoticons on demnd button to your app.
 
 The Aniways Icons on Demand Button lets users insert icons without writing text first. The users can browse all the icons by categories, families and recently used.
 The icons to choose from are displayed over the keyboard (if it’s opened), or where the keyboard would be when opened (if it’s not currently opened).
 
-The guide assumes that you have already performed the actions described in the general getting started guide:
+The guide assumes that you have already performed the actions described in the [getting started guide] (https://github.com/Aniways/sdk/blob/master/docs/android/Getting%20started.md)
 
 ## Adding the button
 
